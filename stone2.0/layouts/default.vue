@@ -1,20 +1,38 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <header>
+    <headers @changed="changed" />
+    <div class="flex h-screen bg-gray-200 font-roboto">
+      <sidenav :isOpen="objIsOpen" :p="{ data: 'opop' }" />
+      <Nuxt />
+    </div>
+  </header>
 </template>
 
+<script>
+import sidenav from "../layouts/sidenav";
+import headers from "../layouts/header";
+export default {
+  components: {
+    sidenav,
+    headers,
+  },
+  data() {
+    return {
+      objIsOpen: false,
+    };
+  },
+  methods: {
+    changed(e, obj) {
+      this.objIsOpen = e;
+      console.log("9999:", this.objIsOpen, obj, e);
+    },
+  },
+};
+</script>
 <style>
 html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;

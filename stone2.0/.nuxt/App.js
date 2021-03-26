@@ -6,11 +6,17 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
+import '..\\node_modules\\@fortawesome\\fontawesome-svg-core\\styles.css'
+
 import '..\\node_modules\\@nuxtjs\\tailwindcss\\dist\\runtime\\tailwind.css'
 
-import _6f6c098b from '..\\layouts\\default.vue'
+import '..\\node_modules\\@fortawesome\\fontawesome-svg-core\\styles.css'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+import _6f6c098b from '..\\layouts\\default.vue'
+import _75c41e03 from '..\\layouts\\header.vue'
+import _e0bb2894 from '..\\layouts\\sidenav.vue'
+
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_header": sanitizeComponent(_75c41e03),"_sidenav": sanitizeComponent(_e0bb2894) }
 
 export default {
   render (h, props) {

@@ -1,5 +1,26 @@
 [
   {
+    "name": "activity",
+    "path": "/activity",
+    "component": "C:\\\\Users\\\\mated\\\\Desktop\\\\Stone2.0final\\\\trunk\\\\stone2.0\\\\pages\\\\activity.vue",
+    "chunkName": "pages/activity",
+    "_name": "_f268d952"
+  },
+  {
+    "name": "dashboard",
+    "path": "/dashboard",
+    "component": "C:\\\\Users\\\\mated\\\\Desktop\\\\Stone2.0final\\\\trunk\\\\stone2.0\\\\pages\\\\dashboard.vue",
+    "chunkName": "pages/dashboard",
+    "_name": "_695ccbfc"
+  },
+  {
+    "name": "temp",
+    "path": "/temp",
+    "component": "C:\\\\Users\\\\mated\\\\Desktop\\\\Stone2.0final\\\\trunk\\\\stone2.0\\\\pages\\\\temp.vue",
+    "chunkName": "pages/temp",
+    "_name": "_315c119c"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\mated\\\\Desktop\\\\Stone2.0final\\\\trunk\\\\stone2.0\\\\pages\\\\index.vue",

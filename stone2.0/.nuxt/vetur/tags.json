@@ -1,5 +1,20 @@
 {
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "ConversationChatWindow": {
+    "description": "Auto imported from components/conversation/chatWindow.vue"
+  },
+  "ConversationContacts": {
+    "description": "Auto imported from components/conversation/contacts.vue"
+  },
+  "DashboardBarchart": {
+    "description": "Auto imported from components/dashboard/barchart.vue"
+  },
+  "DashboardProjects": {
+    "description": "Auto imported from components/dashboard/projects.vue"
+  },
+  "DashboardTasks": {
+    "description": "Auto imported from components/dashboard/tasks.vue"
   }
 }

@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'stone2.0',
+    title: 'Stone2.0',
     htmlAttrs: {
       lang: 'en'
     },
@@ -17,10 +17,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@fortawesome/fontawesome-svg-core/styles.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -30,10 +32,26 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/fontawesome',
+    '@nuxt/image',
+    "@nuxtjs/svg",
   ],
+  fontawesome: {
+    component: 'fa',
+    icons: {
+      solid: true,
+      brands: true
+
+    }
+  },
+  image: {
+    // Options
+  },
+
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
